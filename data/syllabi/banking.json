@@ -1,0 +1,153 @@
+{
+  "exam_code": "BANKING",
+  "exam_name": "Banking Exams (IBPS / SBI PO & Clerk)",
+  "name_tamil": "வங்கித் தேர்வுகள்",
+  "stages": ["Prelims", "Mains", "Interview"],
+  "official_syllabus_pdf": "https://www.ibps.in/",
+  "last_updated": "2024-01-01",
+  "subjects": [
+    {
+      "subject_code": "BANK_REASONING",
+      "subject_name": "Reasoning Ability",
+      "subject_name_tamil": "காரணப் பகுப்பாய்வு",
+      "stage": "Prelims",
+      "weightage": 35,
+      "topics": [
+        {
+          "topic_code": "REA_LOGICAL",
+          "topic_name": "Logical Reasoning",
+          "estimated_hours": 25,
+          "priority": "high",
+          "subtopics": [
+            {"code": "REA_PUZZLE", "name": "Puzzles & Seating Arrangement", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "REA_SYLLO", "name": "Syllogism", "hours": 5, "priority": "high", "frequently_asked": true},
+            {"code": "REA_BLOOD", "name": "Blood Relations", "hours": 4, "priority": "medium", "frequently_asked": true},
+            {"code": "REA_DIR", "name": "Direction Sense", "hours": 3, "priority": "medium", "frequently_asked": true},
+            {"code": "REA_CODING", "name": "Coding-Decoding", "hours": 3, "priority": "medium", "frequently_asked": true}
+          ]
+        }
+      ]
+    },
+    {
+      "subject_code": "BANK_QUANT",
+      "subject_name": "Quantitative Aptitude",
+      "subject_name_tamil": "எண்ணியல் திறன்",
+      "stage": "Prelims",
+      "weightage": 35,
+      "topics": [
+        {
+          "topic_code": "QUA_ARITH",
+          "topic_name": "Arithmetic",
+          "estimated_hours": 30,
+          "priority": "high",
+          "subtopics": [
+            {"code": "QUA_PERCENT", "name": "Percentage, Profit & Loss", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "QUA_SI_CI", "name": "Simple & Compound Interest", "hours": 6, "priority": "high", "frequently_asked": true},
+            {"code": "QUA_TSD", "name": "Time, Speed, Distance & Work", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "QUA_RATIO", "name": "Ratio, Proportion, Mixtures", "hours": 4, "priority": "medium", "frequently_asked": true},
+            {"code": "QUA_NUM", "name": "Number System & Simplification", "hours": 4, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "QUA_DI",
+          "topic_name": "Data Interpretation",
+          "estimated_hours": 15,
+          "priority": "high",
+          "subtopics": [
+            {"code": "DI_TABLE", "name": "Tabular DI", "hours": 5, "priority": "high", "frequently_asked": true},
+            {"code": "DI_BAR", "name": "Bar/Line Graph DI", "hours": 5, "priority": "high", "frequently_asked": true},
+            {"code": "DI_CASE", "name": "Caselet DI", "hours": 5, "priority": "medium", "frequently_asked": true}
+          ]
+        }
+      ]
+    },
+    {
+      "subject_code": "BANK_ENGLISH",
+      "subject_name": "English Language",
+      "stage": "Prelims",
+      "weightage": 30,
+      "topics": [
+        {
+          "topic_code": "ENG_GRAMMAR",
+          "topic_name": "Grammar & Usage",
+          "estimated_hours": 15,
+          "priority": "high",
+          "subtopics": [
+            {"code": "ENG_ERROR", "name": "Error Spotting", "hours": 5, "priority": "high", "frequently_asked": true},
+            {"code": "ENG_FILL", "name": "Fill in the Blanks & Cloze Test", "hours": 5, "priority": "high", "frequently_asked": true},
+            {"code": "ENG_SENT", "name": "Sentence Rearrangement", "hours": 5, "priority": "medium", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "ENG_RC",
+          "topic_name": "Reading Comprehension",
+          "estimated_hours": 10,
+          "priority": "high",
+          "subtopics": [
+            {"code": "ENG_PASSAGE", "name": "Passage Reading", "hours": 5, "priority": "high", "frequently_asked": true},
+            {"code": "ENG_VOCAB", "name": "Vocabulary & Synonyms", "hours": 5, "priority": "medium", "frequently_asked": true}
+          ]
+        }
+      ]
+    },
+    {
+      "subject_code": "BANK_GA",
+      "subject_name": "General Awareness & Banking Awareness",
+      "stage": "Mains",
+      "weightage": 40,
+      "topics": [
+        {
+          "topic_code": "GA_BANKING",
+          "topic_name": "Banking Awareness",
+          "estimated_hours": 20,
+          "priority": "high",
+          "subtopics": [
+            {"code": "BA_RBI", "name": "RBI & Monetary Policy", "hours": 7, "priority": "high", "frequently_asked": true},
+            {"code": "BA_TERMS", "name": "Banking Terminology", "hours": 6, "priority": "high", "frequently_asked": true},
+            {"code": "BA_HIST", "name": "History of Banking in India", "hours": 7, "priority": "medium", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "GA_CURRENT",
+          "topic_name": "Current Affairs",
+          "estimated_hours": 15,
+          "priority": "high",
+          "subtopics": [
+            {"code": "CA_ECON", "name": "Economic Current Affairs", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "CA_NATIONAL", "name": "National & International News", "hours": 7, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "GA_STATIC",
+          "topic_name": "Static GK",
+          "estimated_hours": 10,
+          "priority": "medium",
+          "subtopics": [
+            {"code": "STATIC_GEO", "name": "Geography & Capitals", "hours": 4, "priority": "medium", "frequently_asked": true},
+            {"code": "STATIC_HIST", "name": "Historical Events", "hours": 3, "priority": "medium", "frequently_asked": false},
+            {"code": "STATIC_SPORTS", "name": "Sports & Awards", "hours": 3, "priority": "low", "frequently_asked": true}
+          ]
+        }
+      ]
+    },
+    {
+      "subject_code": "BANK_COMP",
+      "subject_name": "Computer Awareness",
+      "stage": "Mains",
+      "weightage": 20,
+      "topics": [
+        {
+          "topic_code": "COMP_BASIC",
+          "topic_name": "Computer Basics",
+          "estimated_hours": 10,
+          "priority": "medium",
+          "subtopics": [
+            {"code": "COMP_HW", "name": "Hardware & Software", "hours": 4, "priority": "medium", "frequently_asked": true},
+            {"code": "COMP_NET", "name": "Networking & Internet", "hours": 3, "priority": "medium", "frequently_asked": true},
+            {"code": "COMP_MS", "name": "MS Office", "hours": 3, "priority": "low", "frequently_asked": false}
+          ]
+        }
+      ]
+    }
+  ]
+}

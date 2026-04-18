@@ -1,0 +1,37 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+.env
+*.env
+
+# Data directories (large / user-specific)
+vector_db/
+models/
+data/uploads/
+data/backups/
+data/news_cache/
+data/sync_cache/
+data/*.db
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/

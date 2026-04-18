@@ -1,0 +1,120 @@
+{
+  "exam_code": "TRB",
+  "exam_name": "Tamil Nadu Teachers Recruitment Board",
+  "name_tamil": "ஆசிரியர் தேர்வு",
+  "stages": ["Written"],
+  "official_syllabus_pdf": "https://www.trb.tn.nic.in/",
+  "last_updated": "2024-01-01",
+  "subjects": [
+    {
+      "subject_code": "TRB_PHYSICS",
+      "subject_name": "Physics (PG Assistant)",
+      "stage": "Written",
+      "weightage": 170,
+      "topics": [
+        {
+          "topic_code": "PHY_MECH",
+          "topic_name": "Classical Mechanics",
+          "estimated_hours": 30,
+          "priority": "high",
+          "subtopics": [
+            {"code": "MECH_KIN", "name": "Kinematics & Dynamics", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "MECH_LAGRANGIAN", "name": "Lagrangian Mechanics", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "MECH_RIGID", "name": "Rigid Body Dynamics", "hours": 10, "priority": "medium", "frequently_asked": false}
+          ]
+        },
+        {
+          "topic_code": "PHY_EM",
+          "topic_name": "Electromagnetism",
+          "estimated_hours": 30,
+          "priority": "high",
+          "subtopics": [
+            {"code": "EM_ELECTRO", "name": "Electrostatics", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "EM_MAG", "name": "Magnetostatics", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "EM_MAXWELL", "name": "Maxwell Equations", "hours": 12, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "PHY_QM",
+          "topic_name": "Quantum Mechanics",
+          "estimated_hours": 25,
+          "priority": "high",
+          "subtopics": [
+            {"code": "QM_WAVE", "name": "Wave-Particle Duality", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "QM_SCHROD", "name": "Schrodinger Equation", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "QM_ATOMIC", "name": "Atomic Structure", "hours": 7, "priority": "medium", "frequently_asked": true}
+          ]
+        }
+      ]
+    },
+    {
+      "subject_code": "TRB_CHEMISTRY",
+      "subject_name": "Chemistry (PG Assistant)",
+      "stage": "Written",
+      "weightage": 170,
+      "topics": [
+        {
+          "topic_code": "CHEM_INORG",
+          "topic_name": "Inorganic Chemistry",
+          "estimated_hours": 25,
+          "priority": "high",
+          "subtopics": [
+            {"code": "INORG_PERIODIC", "name": "Periodic Table & Properties", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "INORG_COORD", "name": "Coordination Compounds", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "INORG_BOND", "name": "Chemical Bonding", "hours": 7, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "CHEM_ORG",
+          "topic_name": "Organic Chemistry",
+          "estimated_hours": 30,
+          "priority": "high",
+          "subtopics": [
+            {"code": "ORG_HYDRO", "name": "Hydrocarbons", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "ORG_FUNC", "name": "Functional Groups", "hours": 12, "priority": "high", "frequently_asked": true},
+            {"code": "ORG_REACTION", "name": "Reaction Mechanisms", "hours": 8, "priority": "medium", "frequently_asked": false}
+          ]
+        },
+        {
+          "topic_code": "CHEM_PHY",
+          "topic_name": "Physical Chemistry",
+          "estimated_hours": 25,
+          "priority": "high",
+          "subtopics": [
+            {"code": "PHY_THERMO", "name": "Thermodynamics", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "PHY_KINETICS", "name": "Chemical Kinetics", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "PHY_ELECTRO", "name": "Electrochemistry", "hours": 7, "priority": "medium", "frequently_asked": true}
+          ]
+        }
+      ]
+    },
+    {
+      "subject_code": "TRB_GENERAL",
+      "subject_name": "General Knowledge & Pedagogy",
+      "stage": "Written",
+      "weightage": 30,
+      "topics": [
+        {
+          "topic_code": "PEDAGOGY",
+          "topic_name": "Teaching Methodology",
+          "estimated_hours": 15,
+          "priority": "high",
+          "subtopics": [
+            {"code": "PED_LEARN", "name": "Theories of Learning", "hours": 7, "priority": "high", "frequently_asked": true},
+            {"code": "PED_ASSESS", "name": "Classroom Assessment", "hours": 8, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "TRB_GK",
+          "topic_name": "General Knowledge",
+          "estimated_hours": 10,
+          "priority": "medium",
+          "subtopics": [
+            {"code": "GK_INDIA", "name": "Indian History & Polity", "hours": 5, "priority": "medium", "frequently_asked": true},
+            {"code": "GK_CURRENT", "name": "Current Affairs", "hours": 5, "priority": "high", "frequently_asked": true}
+          ]
+        }
+      ]
+    }
+  ]
+}

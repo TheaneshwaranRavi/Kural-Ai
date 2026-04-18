@@ -1,0 +1,93 @@
+{
+  "exam_code": "TNPSC_GROUP2",
+  "exam_name": "TNPSC Group 2 / 2A (CCSE-II)",
+  "name_tamil": "குழு 2 / 2A",
+  "stages": ["Prelims", "Mains"],
+  "official_syllabus_pdf": "https://www.tnpsc.gov.in/English/syllabus.aspx",
+  "last_updated": "2024-01-01",
+  "subjects": [
+    {
+      "subject_code": "G2_GS",
+      "subject_name": "General Studies",
+      "subject_name_tamil": "பொதுத் தமிழ் / பொதுப் படிப்பு",
+      "stage": "Prelims",
+      "weightage": 175,
+      "topics": [
+        {
+          "topic_code": "G2_SCIENCE",
+          "topic_name": "General Science",
+          "estimated_hours": 30,
+          "priority": "high",
+          "subtopics": [
+            {"code": "SCI_PHYS", "name": "Physics Basics", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "SCI_CHEM", "name": "Chemistry Basics", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "SCI_BIO", "name": "Biology, Health & Nutrition", "hours": 10, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "G2_CURRENT",
+          "topic_name": "Current Events & Current Affairs",
+          "estimated_hours": 25,
+          "priority": "high",
+          "subtopics": [
+            {"code": "CE_POLITICAL", "name": "Political Current Events", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "CE_SPORTS", "name": "Sports & Awards", "hours": 5, "priority": "medium", "frequently_asked": true},
+            {"code": "CE_SCHEMES", "name": "Government Schemes", "hours": 12, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "G2_GEO",
+          "topic_name": "Geography",
+          "estimated_hours": 25,
+          "priority": "high",
+          "subtopics": [
+            {"code": "GEO_INDIA", "name": "Geography of India", "hours": 12, "priority": "high", "frequently_asked": true},
+            {"code": "GEO_TN", "name": "Geography of Tamil Nadu", "hours": 13, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "G2_HIST",
+          "topic_name": "History & Culture",
+          "estimated_hours": 35,
+          "priority": "high",
+          "subtopics": [
+            {"code": "HIST_IND", "name": "History of India", "hours": 15, "priority": "high", "frequently_asked": true},
+            {"code": "HIST_TN", "name": "History & Culture of Tamil Nadu", "hours": 20, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "G2_POLITY",
+          "topic_name": "Indian Polity",
+          "estimated_hours": 25,
+          "priority": "high",
+          "subtopics": [
+            {"code": "POL_CONST", "name": "Constitution & Preamble", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "POL_CITIZEN", "name": "Citizenship & Rights", "hours": 7, "priority": "high", "frequently_asked": true},
+            {"code": "POL_JUDICIARY", "name": "Judiciary", "hours": 8, "priority": "medium", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "G2_ECON",
+          "topic_name": "Indian Economy",
+          "estimated_hours": 20,
+          "priority": "high",
+          "subtopics": [
+            {"code": "ECO_BASICS", "name": "Macro Economic Concepts", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "ECO_BANK", "name": "Banking & Financial Institutions", "hours": 6, "priority": "medium", "frequently_asked": true},
+            {"code": "ECO_TN", "name": "TN Economic Development", "hours": 6, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "G2_APT",
+          "topic_name": "Aptitude & Mental Ability",
+          "estimated_hours": 20,
+          "priority": "high",
+          "subtopics": [
+            {"code": "APT_ARITH", "name": "Arithmetic", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "APT_REASON", "name": "Reasoning & Puzzles", "hours": 10, "priority": "high", "frequently_asked": true}
+          ]
+        }
+      ]
+    }
+  ]
+}

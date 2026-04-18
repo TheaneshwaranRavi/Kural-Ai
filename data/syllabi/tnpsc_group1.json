@@ -1,0 +1,140 @@
+{
+  "exam_code": "TNPSC_GROUP1",
+  "exam_name": "TNPSC Group 1 (CCSE-I)",
+  "name_tamil": "குழு 1",
+  "stages": ["Prelims", "Mains", "Interview"],
+  "official_syllabus_pdf": "https://www.tnpsc.gov.in/English/syllabus.aspx",
+  "last_updated": "2024-01-01",
+  "subjects": [
+    {
+      "subject_code": "GS_PRELIMS",
+      "subject_name": "General Studies (Prelims)",
+      "subject_name_tamil": "பொது அறிவு",
+      "stage": "Prelims",
+      "weightage": 175,
+      "topics": [
+        {
+          "topic_code": "GS_GENSCI",
+          "topic_name": "General Science",
+          "topic_name_tamil": "பொது அறிவியல்",
+          "estimated_hours": 40,
+          "priority": "high",
+          "subtopics": [
+            {"code": "PHYSICS", "name": "Physics", "hours": 12, "priority": "high", "frequently_asked": true},
+            {"code": "CHEMISTRY", "name": "Chemistry", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "BIOLOGY", "name": "Biology & Botany", "hours": 12, "priority": "high", "frequently_asked": true},
+            {"code": "HEALTH", "name": "Health and Hygiene", "hours": 6, "priority": "medium", "frequently_asked": false}
+          ]
+        },
+        {
+          "topic_code": "GS_CURRENT",
+          "topic_name": "Current Events",
+          "topic_name_tamil": "நடப்பு நிகழ்வுகள்",
+          "estimated_hours": 30,
+          "priority": "high",
+          "subtopics": [
+            {"code": "CE_NATIONAL", "name": "National Current Affairs", "hours": 12, "priority": "high", "frequently_asked": true},
+            {"code": "CE_INTL", "name": "International Current Affairs", "hours": 8, "priority": "medium", "frequently_asked": true},
+            {"code": "CE_TN", "name": "Tamil Nadu Current Events", "hours": 10, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "GS_GEOGRAPHY",
+          "topic_name": "Geography of India",
+          "topic_name_tamil": "இந்திய புவியியல்",
+          "estimated_hours": 35,
+          "priority": "high",
+          "subtopics": [
+            {"code": "GEO_PHYS", "name": "Physical Geography", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "GEO_CLIMATE", "name": "Climate and Monsoons", "hours": 6, "priority": "medium", "frequently_asked": true},
+            {"code": "GEO_RES", "name": "Natural Resources", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "GEO_TN", "name": "Geography of Tamil Nadu", "hours": 11, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "GS_HISTORY",
+          "topic_name": "History and Culture of India",
+          "topic_name_tamil": "இந்திய வரலாறு மற்றும் கலாச்சாரம்",
+          "estimated_hours": 45,
+          "priority": "high",
+          "subtopics": [
+            {"code": "HIST_ANCIENT", "name": "Ancient India", "hours": 10, "priority": "medium", "frequently_asked": true},
+            {"code": "HIST_MEDIEVAL", "name": "Medieval India", "hours": 8, "priority": "medium", "frequently_asked": false},
+            {"code": "HIST_MODERN", "name": "Modern India & Freedom Struggle", "hours": 15, "priority": "high", "frequently_asked": true},
+            {"code": "HIST_TN", "name": "Tamil Nadu History & Culture", "hours": 12, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "GS_POLITY",
+          "topic_name": "Indian Polity",
+          "topic_name_tamil": "இந்திய அரசியலமைப்பு",
+          "estimated_hours": 35,
+          "priority": "high",
+          "subtopics": [
+            {"code": "POL_CONST", "name": "Constitution of India", "hours": 15, "priority": "high", "frequently_asked": true},
+            {"code": "POL_UNION", "name": "Union Government", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "POL_STATE", "name": "State Government & TN Administration", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "POL_LOCAL", "name": "Local Self Government", "hours": 4, "priority": "medium", "frequently_asked": false}
+          ]
+        },
+        {
+          "topic_code": "GS_ECONOMY",
+          "topic_name": "Indian Economy",
+          "topic_name_tamil": "இந்திய பொருளாதாரம்",
+          "estimated_hours": 30,
+          "priority": "high",
+          "subtopics": [
+            {"code": "ECO_PLAN", "name": "Planning & NITI Aayog", "hours": 6, "priority": "medium", "frequently_asked": true},
+            {"code": "ECO_BUDGET", "name": "Budget, Taxation, Banking", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "ECO_AGRI", "name": "Agriculture & Rural Economy", "hours": 8, "priority": "medium", "frequently_asked": true},
+            {"code": "ECO_TN", "name": "Tamil Nadu Economy", "hours": 6, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "GS_APTITUDE",
+          "topic_name": "Aptitude & Mental Ability",
+          "topic_name_tamil": "திறனறிவு",
+          "estimated_hours": 25,
+          "priority": "high",
+          "subtopics": [
+            {"code": "APT_LOGIC", "name": "Logical Reasoning", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "APT_NUM", "name": "Simplification & Percentage", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "APT_DATA", "name": "Data Interpretation", "hours": 5, "priority": "medium", "frequently_asked": true},
+            {"code": "APT_PROB", "name": "Probability & Statistics", "hours": 4, "priority": "medium", "frequently_asked": false}
+          ]
+        }
+      ]
+    },
+    {
+      "subject_code": "GS_MAINS_1",
+      "subject_name": "Mains Paper I - Modern History & Culture of TN",
+      "stage": "Mains",
+      "weightage": 300,
+      "topics": [
+        {
+          "topic_code": "M1_FREEDOM",
+          "topic_name": "Indian Freedom Struggle",
+          "estimated_hours": 30,
+          "priority": "high",
+          "subtopics": [
+            {"code": "FS_1857", "name": "1857 Revolt & Aftermath", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "FS_CONGRESS", "name": "Indian National Congress", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "FS_GANDHIAN", "name": "Gandhian Era", "hours": 12, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "M1_TN_CULTURE",
+          "topic_name": "History & Culture of Tamil Nadu",
+          "estimated_hours": 40,
+          "priority": "high",
+          "subtopics": [
+            {"code": "TN_SANGAM", "name": "Sangam Age", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "TN_CHOLA", "name": "Chola Empire", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "TN_DRAVIDIAN", "name": "Dravidian Movement", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "TN_LITERATURE", "name": "Tamil Literature", "hours": 10, "priority": "medium", "frequently_asked": true}
+          ]
+        }
+      ]
+    }
+  ]
+}

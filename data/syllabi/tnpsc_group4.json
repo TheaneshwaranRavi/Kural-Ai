@@ -1,0 +1,129 @@
+{
+  "exam_code": "TNPSC_GROUP4",
+  "exam_name": "TNPSC Group 4 (CCSE-IV)",
+  "name_tamil": "குழு 4",
+  "stages": ["Single"],
+  "official_syllabus_pdf": "https://www.tnpsc.gov.in/English/syllabus.aspx",
+  "last_updated": "2024-01-01",
+  "subjects": [
+    {
+      "subject_code": "G4_TAMIL",
+      "subject_name": "General Tamil / English Eligibility",
+      "subject_name_tamil": "பொதுத் தமிழ்",
+      "stage": "Single",
+      "weightage": 100,
+      "topics": [
+        {
+          "topic_code": "TA_GRAMMAR",
+          "topic_name": "Tamil Grammar",
+          "estimated_hours": 20,
+          "priority": "high",
+          "subtopics": [
+            {"code": "TA_LETTERS", "name": "Eluthu & Sol", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "TA_PORUL", "name": "Porul (Meaning)", "hours": 10, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "TA_LIT",
+          "topic_name": "Tamil Literature",
+          "estimated_hours": 25,
+          "priority": "high",
+          "subtopics": [
+            {"code": "LIT_SANGAM", "name": "Sangam Literature", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "LIT_BHAKTI", "name": "Bhakti Literature", "hours": 8, "priority": "medium", "frequently_asked": true},
+            {"code": "LIT_MODERN", "name": "Modern Tamil Literature", "hours": 7, "priority": "medium", "frequently_asked": true}
+          ]
+        }
+      ]
+    },
+    {
+      "subject_code": "G4_GS",
+      "subject_name": "General Studies",
+      "stage": "Single",
+      "weightage": 75,
+      "topics": [
+        {
+          "topic_code": "G4_SCIENCE",
+          "topic_name": "General Science",
+          "estimated_hours": 20,
+          "priority": "high",
+          "subtopics": [
+            {"code": "SCI_PHYS", "name": "Physics", "hours": 7, "priority": "high", "frequently_asked": true},
+            {"code": "SCI_CHEM", "name": "Chemistry", "hours": 7, "priority": "high", "frequently_asked": true},
+            {"code": "SCI_BIO", "name": "Biology", "hours": 6, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "G4_CURRENT",
+          "topic_name": "Current Events",
+          "estimated_hours": 15,
+          "priority": "high",
+          "subtopics": [
+            {"code": "CE_NATIONAL", "name": "National Current Events", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "CE_TN", "name": "Tamil Nadu Current Events", "hours": 7, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "G4_HIST_TN",
+          "topic_name": "Tamil Nadu History",
+          "estimated_hours": 25,
+          "priority": "high",
+          "subtopics": [
+            {"code": "TNH_ANCIENT", "name": "Ancient Tamil Nadu (Sangam, Pallavas)", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "TNH_MEDIEVAL", "name": "Cholas, Pandyas, Nayaks", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "TNH_MODERN", "name": "Modern Tamil Nadu & Dravidian Movement", "hours": 7, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "G4_GEOGRAPHY",
+          "topic_name": "Geography",
+          "estimated_hours": 20,
+          "priority": "high",
+          "subtopics": [
+            {"code": "GEO_INDIA", "name": "Indian Geography", "hours": 10, "priority": "high", "frequently_asked": true},
+            {"code": "GEO_TN", "name": "Tamil Nadu Geography", "hours": 10, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "G4_POLITY",
+          "topic_name": "Indian Polity",
+          "estimated_hours": 15,
+          "priority": "high",
+          "subtopics": [
+            {"code": "POL_CONST", "name": "Constitution Basics", "hours": 8, "priority": "high", "frequently_asked": true},
+            {"code": "POL_RIGHTS", "name": "Fundamental Rights & Duties", "hours": 7, "priority": "high", "frequently_asked": true}
+          ]
+        },
+        {
+          "topic_code": "G4_ECON",
+          "topic_name": "Indian Economy",
+          "estimated_hours": 12,
+          "priority": "medium",
+          "subtopics": [
+            {"code": "ECO_BASIC", "name": "Economy Basics", "hours": 6, "priority": "medium", "frequently_asked": true},
+            {"code": "ECO_TN", "name": "Tamil Nadu Economy", "hours": 6, "priority": "high", "frequently_asked": true}
+          ]
+        }
+      ]
+    },
+    {
+      "subject_code": "G4_APT",
+      "subject_name": "Aptitude & Mental Ability",
+      "stage": "Single",
+      "weightage": 25,
+      "topics": [
+        {
+          "topic_code": "APT_MENTAL",
+          "topic_name": "Mental Ability",
+          "estimated_hours": 15,
+          "priority": "high",
+          "subtopics": [
+            {"code": "APT_NUM", "name": "Number Series", "hours": 5, "priority": "high", "frequently_asked": true},
+            {"code": "APT_VERBAL", "name": "Verbal Reasoning", "hours": 5, "priority": "high", "frequently_asked": true},
+            {"code": "APT_NONVERBAL", "name": "Non-Verbal Reasoning", "hours": 5, "priority": "medium", "frequently_asked": false}
+          ]
+        }
+      ]
+    }
+  ]
+}
