@@ -189,6 +189,7 @@ class AppSettings(BaseSettings):
     log_level: str = "INFO"
 
     class Config:
+        env_prefix = "KURAL_"
         env_file = str(BASE_DIR / ".env")
         env_nested_delimiter = "__"
 

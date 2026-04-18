@@ -489,3 +489,18 @@
   explanations, avg satisfaction rating, top suggestion — all spoken aloud
 - _deliver_accessibility_check(): pass/fail count, compliance %, failing item names
 - COMMANDS dict updated with 4 new entries
+
+### [x] Step 18: Missing function audit and deployment preparation
+- Audited all cross-module function calls in main.py against module implementations
+  - get_question(), find_duplicate_questions(), connectivity_report(), play_earcon(),
+    match_command(), stop_scheduler(), run_daily_update(), get_stats(),
+    topics_voice_report(), priority_topics_voice(), coverage_voice_report(),
+    log_mock_score(), log_query(), run_topic_practice(), run_year_practice(),
+    generate_mock_test(), run_random_practice() — all verified present
+- Fixed requirements.txt: deduplicated chromadb entry, pinned chromadb>=0.4.22
+- Fixed config/settings.py: added env_prefix="KURAL_" to AppSettings.Config
+  to prevent OS environment variable collision (USER, LANGUAGE, etc.)
+- Updated .env.example: all env vars now use KURAL_ prefix
+- Python syntax check: all 17 module files + config + main.py + tests pass py_compile
+- Config import verification: AppSettings instantiates cleanly with all 11 sub-models
+- All cross-module imports verified structurally sound
